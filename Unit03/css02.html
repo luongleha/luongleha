@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#parent>.text{
+			color: red;
+		}
+		#parent li:first-child{
+			color: blue;
+		}
+		#parent li:nth-child(2){
+			color: red
+		}
+		#parent li:last-child{
+			color: brown;
+		}
+
+		/*  cách đổi mầu chỉ của anh em h1 ~ hoặc dấu + p{
+			color: red;
+		}*/
+		h2:hover{
+			color: red;
+		}
+		a:hover{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="parent">
+		<h1>Hello</h1>
+		<p class="text">Hello</p>
+		<h2 frontend="23">Hello23</h2>
+		<a href="Click me">Click</a>
+		<ul>
+			<li>Ha noi</li>
+			<li>Da Nang</li>
+			<li>HCM</li>
+		</ul>
+		<p class="text">Zent</p>
+		<div>
+			<p class="text">Zent</p>
+		</div>
+	</div>
+</body>
+</html>
