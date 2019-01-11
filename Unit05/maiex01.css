@@ -1,0 +1,97 @@
+#login{
+	margin: auto;
+	background-color: #f9f6f6;
+	width: 30%;
+	padding: 30px;
+	height: 500px;
+	border: 1px;
+	border: 1px blue solid;
+}
+#top{
+	width: 98%;
+}
+i{
+	float: right;
+}
+#main1{
+	text-align: center;
+	margin: 30px;
+}
+.fb{
+	background-color: #3884ee;
+	height: 40px;
+	width: 80%;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+	font-size: 18px;
+}
+.Twitter{
+	background-color: #79d8f0;
+	height: 40px;
+	width: 80%;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+	font-size: 18px;
+}
+.text{
+	text-align: center;
+}
+.get{
+	color: blue;
+	text-decoration: none;
+}
+#main2{
+	margin: 30px;
+}
+#main2>p{
+	display: inline-block;
+}
+#main2>input{
+	border: 1px;
+	border: 1px yellow solid;
+	margin: 0 auto;
+	display: block;
+}
+.ep{
+	text-align: left;
+	padding-left: 20px;
+	border: 1px;
+	border-color: #ecee38;
+	height: 40px;
+	width: 76%;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+}
+#bottom{
+	text-align: center;
+	width: 90%;
+	margin: 30px;
+}
+#bottom p{
+	float: left;
+}
+#bottom button{
+	float: right;
+}
+.text{
+	float: left;
+	text-align: left;
+	margin: auto;
+}
+.login{
+	text-align: left;
+	padding: 8px 15px;
+	color: red;
+	background-color: #3884ee;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+}
+#top p {
+	float: left;
+	margin: 0;
+}
+#top i {
+	float: right;
+}

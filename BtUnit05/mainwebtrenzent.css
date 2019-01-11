@@ -1,0 +1,430 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style:none; 
+}
+header{
+	background:#d60a0a;
+	width: 100%;
+	height: 123px;
+	float: left;
+}
+header p{
+	font-size: 40px;
+	color: white;
+	padding-bottom: 15px;
+	width: 200px;
+	height:45px;
+	float: left;
+	margin-left: 213px;
+}
+.menucon{
+	width: 69%;
+	margin: 0 auto;
+}
+.menucon ul li{
+	float: left;
+	color: white;
+	width: 75px;
+	text-align: center;
+	height: 26px;
+	padding-top: 10px;
+	border-bottom: 4px solid #b90404;
+}
+.menucon ul li:hover {
+	border-color: white;
+}
+#menuli{
+	width: 125px;
+}
+nav {
+	background: #b90404;
+	float: left;
+	width: 100%;
+}
+.phandau{
+	padding-top: 23px;
+	float: left;
+	width: 100%;
+}
+aside{
+	width: 100%;
+	float: left;
+	background: rgba(218, 218, 224, 0.4);
+	height: 140px;
+	position: relative;
+	clear: both;
+}
+aside img{
+	position: absolute;
+	top:34px;
+	left: 338px;
+}
+aside p{
+	font-size: 15px;
+	position: absolute;
+	margin-top:30px; 
+	left:976px;
+	color: #6c6969;
+	top:-20px;
+}
+section{
+	float: left;
+	width: 100%;
+	height: 3500px;
+	background: white;
+}
+.phanchinh{
+	width: 70%;
+	margin: 0 auto;
+	background: white;
+	margin-top: 17px;
+	background: green;
+}
+.chinh1{
+	height: 2003px;
+	width: 68%;
+	float: left;
+}
+.nga{
+	float: left;
+	width: 42%;
+	height: 100px;
+	margin-top: 10px;
+	color: gray;
+}
+#ngangaygio{
+	padding-top: 10px;
+	color: gray;
+}
+.nga span{
+	margin-left: 10px;
+	color: #d81a1a;
+}
+.nga hr{
+	width: 35px;
+	border: 0.5px solid #d81a1a;
+	margin-top: 10px;
+}
+.nga2{
+	width: 52%;
+	float: left;
+	margin-left: 10px;
+	height: 240px;
+	margin-top: 10px;
+}
+.nga2 img{
+	width: 98%;
+	height: 210px;
+	margin-left: 10px;
+}
+.chinh1 p{
+	font-size: 36px;
+}
+#classhr{
+	width: 96%;
+	border: 1px solid #e8e6e6;
+	margin-top: 15px;
+	float: left;
+	margin-bottom: 10px;
+}
+.noidungchinhphan2{
+	width: 100%;
+	margin-top: 20px;
+	height:auto;
+	float: left;
+}
+.phu21{
+	width: 33%;
+	height: auto;
+	border-right: 1px solid rgba(128, 128, 128, 0.15);
+	float: left;
+}
+.phu21 img{
+	width: 95%;
+}
+.phu21 p{
+	font-size: 22px;
+}
+#theh4{
+	width: 95%;
+	color: gray;
+	margin-top: 5px;
+}
+.phu21 span{
+	margin-left: 10px;
+	color: #d81a1a;
+}
+.phu21 hr{
+	width: 35px;
+	border: 0.5px solid rgba(128, 128, 128, 0.15);
+	margin-top: 10px;
+}
+#thongtinphu{
+	color: rgba(0, 0, 0, 0.66);
+	margin-top: 10px;
+}
+.phu22{
+	margin-left: 10px;
+	float: left;
+}
+.phu231{
+	float: left;
+	width: 25%;
+	margin-left: 10px;
+	height: 150px;
+}.phu231 span{
+	color: #d81a1a;
+}
+.phu231 h2{
+	font-size: 21px;
+}
+.phu231 hr{
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid rgba(128, 128, 128, 0.15);
+}
+#phu231{
+	margin-top: -25px;
+}
+.phu3{
+	width: 47%;
+	float: left;
+}
+.phu3 p{
+	font-size: 20px;
+}
+.phu3 span{
+	color: #d81a1a;
+}
+.phu31{
+	width: 47%;
+	float: left;
+
+}
+#nghexem{
+	font-size: 25px;
+}
+.noidungchinhphan2 span{
+	color: #bd1313;
+}
+.phu32{
+	height: 155px;
+	width: 55%;
+	float: left;
+	
+}
+.phu33{
+	width: 45%;
+	height: 100px;
+	float: left;
+}
+.phu32 img{
+	width: 166px;
+	float: left;
+	height: 90px;
+}
+.phu33 p{
+	font-size: 15px;
+	margin-left: 15px;
+}
+.phu33 h4{
+	font-size: 12px;
+	margin-left: 15px;
+	margin-top: 5px;
+	padding-top: 5px;
+	color: #808078;
+}
+.phu3 div{
+	margin-top: 20px;
+}
+#phan2phu3{
+	margin-left: 25px;
+}
+#phu34{
+	width: 100%;
+}
+#phu36{
+	width: 25%;
+}
+#phu35{
+	width: 75%;
+}
+#phu35 h3{
+	margin-left: 14px;
+}
+#phu35 p{
+	margin-top: 10px;
+}
+#phu40 img{
+	width: 280px;
+	height: 150px;
+}
+.phu3 h4{
+	float: left;
+}
+.phu3 h5{
+	float: left;
+	width: 270px;
+	color: gray;
+	margin-top: 5px;
+}
+
+.chinh2{
+	width: 30%;
+	height: 2003px;
+	float: left;
+	margin-left: 15px;
+	background: rgba(218, 218, 224, 0.4);
+}
+.gocnhinchuyenmuc{
+	position: relative;
+	margin-left: 23px;
+	width: 100%;
+	margin-top: 5px;
+	height: 1982px;
+}
+.gocnhinchuyenmuc img{
+	width: 85%;
+	margin-top: 10px;
+}
+.gocnhinchuyenmuc p{
+	font-size: 24px;
+	color: rgba(31, 19, 19, 0.66);
+	margin-top: 10px;
+}
+#quangcao2{
+	font-size: 13px;
+	margin-left: 76px;
+}
+.gocnhinchuyenmuc h4{
+	width: 85%;
+	color: rgba(6, 5, 5, 0.76);
+}
+#chinhanhsection{
+	margin-top: 20px;
+}
+.gocnhinchuyenmuc2{
+	margin-top: 10px;
+	width: 100%;
+	height: 500px;
+	float: left;
+}
+#docnhieunhat{
+	font-size: 25px;
+	width: 91%;
+	padding: 6px 0px 6px 20px;
+	margin-top: 27px;
+	background: rgba(218, 218, 224, 0.4);
+	color: rgba(31, 19, 19, 0.9);
+}
+.gocnhinchuyenmuc2 h4{
+	width: 70%;
+	float: left;
+	color: black;
+	color: rgba(0, 0, 0, 0.57);
+	padding: 6px 0px 6px 20px;
+}
+.gocnhinchuyenmuc2 h3{
+	width: 20%;
+	float: left;
+	text-align: center;
+	color: red;
+	padding-top: 10px;
+}
+.gocnhinchuyenmuc2 hr{
+	width: 95%;
+	color: black;
+}
+.gocnhinchuyenmuc3{
+	float: left;
+	width: 100%;
+	height: 311px;
+	background: rgba(218, 218, 224, 0.4);
+	margin-top: 100px;
+}
+.gocnhinchuyenmuc3 p{
+	padding: 6px 0px 6px 20px;
+	font-size: 25px;
+	float: left;
+	margin-top: 10px;
+}
+.gocnhinchuyenmuc3 h5{
+	padding: 6px 11px 6px 7px;
+	font-size: 13px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	width: 30%;
+	float:left;
+	margin-left: 18px;
+	margin-top: 15px;
+	background: white; 	
+}
+#facebook{
+	border-bottom:2px solid blue;
+}
+#twiter{
+	border-bottom:2px solid #32c3bd;
+}
+#youtube{
+	border-bottom:2px solid #af2222;
+}
+#google{
+	border-bottom:2px solid red;
+}
+.gocnhinchuyenmuc3 hr{
+	width: 78%;
+	margin-left:18px;
+	margin-top: 186px;
+}
+#bss{
+	width: 73%;
+	text-align: left;
+	border: 1px solid white;
+}
+
+
+footer{
+	width: 100%;
+	float: left;
+	height: 230px;
+	background:#656161;
+}
+.phancuoi{
+	width: 70%;
+	margin: 0 auto;
+	color: white;
+	padding-top: 20px;
+	font-size: 12px;
+}
+.phancuoi h3{
+	width: 250px;
+	margin-left: 15px;
+	font-size: 25px;
+}
+.phancuoi div ul li{
+	margin-top: 25px;
+	float: left;
+	width: 130px;
+	text-align: center;
+}
+.phancuoi hr{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+#phancuoichinhsua li{
+	border-right: 1px solid white;
+	padding-right: 10px;
+	text-align: left;
+	padding-left: 15px;
+	width: 100px;
+}
+.phancuoi p{
+	float: left;
+	margin-left: 15px;
+	margin-top: 24px;
+}

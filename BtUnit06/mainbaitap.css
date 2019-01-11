@@ -134,10 +134,10 @@ nav{
 	border-radius:5px 10px 4px 8px;
 }
 
-@media(max-width: 920px){
+@media(max-width: 960px){
 	.main1son{
 		padding: 0;
-		width: 25%;
+		width: 27%;
 		padding-right: 15px;
 	}
 	.left{

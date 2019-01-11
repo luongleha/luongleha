@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			border-radius: 100px;
+			position: relative;
+			background: red;
+			animation: zent;
+			/*-moz-animation: zent;ss
+			-o-animation: zent; danh cho opera
+			-webkit-animation: zent;
+			-moz-animation: zent;
+			-ms-animation: zent;*/
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes zent{
+			0%{
+				top: 0px;
+				left: 0px;
+				background: red;
+			}
+			25%{
+				top: 0px;
+				left: 400px;
+				background: yellow;
+			}
+			50%{
+				top: 400px;
+				left: 0px;
+			}
+			75%{
+				top: 400px;
+				left: 400px;
+			}
+			100%{
+				top: 0px;
+				left: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
