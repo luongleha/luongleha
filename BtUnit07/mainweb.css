@@ -1,0 +1,306 @@
+body{
+	margin: 0 auto
+}
+.top{ 
+	height: 50px;
+}
+.top1{
+	width: 20%;
+	line-height: 50px;
+	float: left;
+}
+.top1 h1{
+	float: right;
+	margin: 0 auto;
+}
+.top2{
+	width: 45%;
+	line-height: 50px;
+	float: right;
+}
+.top2 h4:last-child{
+	display: none;
+}
+.top2 h4{
+	padding: 0 10px 0;
+	margin: 0 auto;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.img i{
+	text-align: center;
+}
+
+.providing{
+	text-align: center;
+}
+.providing h2{
+	margin-top: 50px;
+}
+.providing li{
+	padding: 70px;
+	display: inline-block;
+	list-style: none;
+}
+.providing i{
+	font-size: 40px;
+}
+
+.img2{
+	width: 45%;
+	padding: 30px 0 30px;
+	display: inline-block;
+}
+.img2 img{
+	max-width: 100%;
+}
+.son1{
+	padding-left: 0px;
+}
+.son2{
+	margin-top: 30px;
+	width: 30%;
+	display: inline-block;
+}
+.son2left{
+	width: 30%;
+	float: left;
+}
+.son2left i{
+	font-size: 50px;
+}
+.son2right{
+	width: 70%;
+	float: right;
+}
+.son2right h4{
+	margin-top: 0px;
+	text-align: left;
+}
+.son2right p{
+	text-align: left;
+}
+.Easily{
+	padding: 3% 0;
+	background-color: #ff5a00;
+}
+.Easily button{
+	margin-top: 5%;
+	background-color: white;
+	font-size: 20px;
+	border-radius: 20px 20px 20px 20px;
+	border: none;
+	height: 40px
+}
+.Easily p{
+	font-size: 20px;
+}
+
+.What{
+	background-color: #f0eeee;
+	padding: 5% 0;
+}
+.What h1{
+	padding-bottom: 2%;
+}
+.ava1{
+	width: 20%;
+	display: inline-block;
+}
+.ava1 img{
+	border-radius: 20px 20px 20px 20px;
+}
+
+#bottom{
+	padding: 3% 0;
+	background-color: #3e3e3e;
+}
+#bottom h2{
+	color: white;
+}
+#bottom p{
+	color: white;
+}
+#bottom i{
+	color: white;
+	font-size: 30px;
+	padding-right: 10px;
+}
+.bottomson{
+	width: 30%;
+	float:left;
+	margin-left:2%;
+}
+.bottomson li{
+	display: inline-block;
+	list-style: none;
+}
+
+.bottom2{
+	background-color: black; 
+	height: 50px;
+}
+.bottom2son1{
+	width: 25%;
+	line-height: 50px;
+	float: left;
+}
+.bottom2son1 h4{
+	color: white;
+	float: right;
+	margin: 0 auto;
+}
+.bottom2son2{
+	width: 40%;
+	line-height: 50px;
+	float: right;
+}
+.bottom2son2 h4{
+	padding: 0 20px 0;
+	color: white;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+@media (max-width: 700px){
+	.top{
+		width: 100%;
+		display: inline-block;
+	}
+	.top2{
+		display: inline-block;width: 50%;
+	}
+	.top2 h4{
+		padding-left: 10px;
+		font-size: 10px;
+	}
+	.providing li{
+		padding-right: 0px;
+		width: 24%;
+		display: inline-block;
+		padding-left: 0;
+	}
+	.main2 p{
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+	.son2right p{
+		padding: 0;
+	}
+	.img2{
+		width: 100%;
+	}
+	.son2{
+		width: 100%;
+	}
+	.ava1{
+		width: 100%;
+	}
+	.ava1 p{
+		padding-right: 150px;
+		padding-left: 150px;
+		padding-bottom: 60px;
+	}
+	.bottomson{
+		margin-left: 30px;
+		width: 90%;
+	}
+	.bottom2 h4{
+		font-size: 10px;
+	}
+	.bottom2son1{
+		padding-left: 30px;
+	}
+	.bottom2son2{
+		width: 64%;
+	}
+	.img img{
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px){
+	.top{
+		width: 100%;
+		display: inline-block;
+	}
+	.top2{
+		display: inline-block;
+		width: 60%;
+	}
+
+	.top2 h4:last-child{
+		display: block;
+		float: right;
+	}
+	.top2 h4:last-child:hover .top2{
+		float: right;
+		background-color: blue;
+		width: 40%;
+	}
+	.top2 h4:hover{
+		-o-animation: exam;
+		-ms-animation: exam;
+		-webkit-animation: exam;
+		-moz-animation: exam;
+
+		animation-name: exam;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+	}
+	.top2 h4{
+		display: none;
+		font-size: 8px;
+		padding: 0 8px 0;
+	}
+	.providing li{
+		padding-right: 0px;
+		width: 100%;
+		padding-left: 0;
+	}
+	nav{
+		background-color: #f0eeee;
+	}
+	.main2 p{
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+	.son2right p{
+		padding: 0;
+	}
+	.img2{
+		width: auto;
+	}
+	.son2{
+		width: 100%;
+	}
+	.ava1{
+		width: 100%;
+	}
+	.ava1 p{
+		padding-right: 150px;
+		padding-left: 150px;
+		padding-bottom: 60px;
+	}
+	.bottomson{
+		margin-left: 30px;
+		width: 90%;
+	}
+	.bottom2 h4{
+		font-size: 8px;
+		padding: 0 8px 0;
+	}
+	.bottom2son1{
+		padding-left: 30px;
+	}
+	.bottom2son2{
+		width: 64%;
+	}
+	.img img{
+		width: 100%;
+	}
+}
