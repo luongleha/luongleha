@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		do {
+			var n = parseInt(prompt("Nhap n: "));
+			var m = parseInt(prompt("Nhap m: "));
+			if (n<m) {
+				alert("Ban phai nhap m >= n !");
+			}
+		} while (m<n);
+		var k = parseInt(prompt("Nhap k: "));
+		var sum = 0;
+		for (var i = n+1; i < m; i++) {
+			if (i % k == 0) {
+				sum = sum + i;
+			}
+		}
+		alert("Tong cac so chia het cho k trong khoang tu m den n la: " +sum);
+	</script>
+</body>
+</html>

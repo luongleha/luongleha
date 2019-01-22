@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		do {
+			var n = parseInt(prompt("Nhap n: "));
+			if (n<0) {
+				alert("Nhap lai !");
+			}
+		} while (n<=0);
+		
+		var tong = 0;
+		for (var i = 1; i <= n; i++) {
+			tong += 1 / i;
+		}
+		alert("Tong la = " +tong);
+	</script>
+</body>
+</html>
