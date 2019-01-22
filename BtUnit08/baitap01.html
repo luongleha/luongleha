@@ -3,42 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style type="text/css">
+	#no_id{
+		border: 1px solid black;
+		width: 270px;
+ 
+	}
+</style>
 </head>
 <body>
-	<P>A</P>
-	<a href=”javascript:zoominLetter();”>A</a>
-	<script >
-var min=8;
-var max=18;
-function zoominLetter() {
-var p = document.getElementsByTagName(‘p’);
-for(i=0;i<p.length;i++) {
-if(p[i].style.fontSize) {
-var s = parseInt(p[i].style.fontSize.replace(“px”,""));
-} else {
-var s = 12;
-}
-if(s!=max) {
-s += 1;
-}
-p[i].style.fontSize = s+”px”
-}
-}
-function zoomoutLetter() {
-var p = document.getElementsByTagName(‘p’);
-for(i=0;i<p.length;i++) {
-if(p[i].style.fontSize) {
-var s = parseInt(p[i].style.fontSize.replace(“px”,""));
-} else {
-var s = 12;
-}
-if(s!=min) {
-s -= 1;
-}
-p[i].style.fontSize = s+”px”
-}
-}
-</script>
+	<div id="no_id">
+		<p id="text" style='font-size: 30px'>Hello Toi La Ha Dep Zai :)</p>
 
+		<button onclick="md()">Mặc định</button>
+		<button  onclick="big()">Lớn</button>
+		<button  onclick="small()">Nhỏ</button>
+	</div>
+	<script type="text/javascript">
+		function md(){
+			document.getElementById('text').style.fontSize= "30px";
+		}
+		function big(){
+			var fs= document.getElementById('text').style.fontSize
+			var res= parseInt(fs.split('px')[0])+10;
+			document.getElementById('text').style.fontSize= res+'px';
+		}
+		function small(){
+			var fs= document.getElementById('text').style.fontSize
+			var res= parseInt(fs.split('px')[0])-10;
+			document.getElementById('text').style.fontSize= res+'px';
+		}
+	</script>
 </body>
 </html>

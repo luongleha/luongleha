@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+    td{
+      border: 1px solid black;
+      padding: 10px;
+    }
+    #box:hover{
+      background: red;
+    }
+    table{
+      background: gold;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr id="box">
+      <td>
+        <input type="checkbox" name="check" class="item">
+      </td>
+      <td>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </td>
+    </tr>
+    <tr id="box">
+       <td>
+        <input type="checkbox" name="check" class="item">
+      </td>
+      <td>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </td>
+    </tr>
+    <tr id="box">
+       <td>
+        <input type="checkbox" name="check" class="item" >
+      </td>
+      <td>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </td>
+    </tr>
+    <tr id="box">
+       <td>
+        <input type="checkbox" name="check" class="item">
+      </td>
+      <td>
+        Lorem ipsum dolor sit amet, consectetur adipisicing lacndj kcdhhbc elit.
+      </td>
+    </tr>
+    <tr id="box">
+       <td>
+        <input type="checkbox" name="check" class="item">
+      </td>
+      <td>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </td>
+    </tr>
+    <tr id="box">
+       <td>
+        <input type="checkbox" name="check" class="item">
+      </td>
+      <td>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </td>
+    </tr>
+    <tr id="box">
+       <td>
+        <input type="checkbox" name="check" class="item">
+      </td>
+      <td>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </td>
+    </tr>
+  </table>
+  <button onclick="checkall()">Check all</button>
+  <button onclick="uncheck()">Uncheck all</button>
+  <script>
+    function checkall(){
+      var listItem = document.getElementsByClassName('item');
+      for (var i = listItem.length - 1; i >= 0; i--) {
+        listItem[i].checked=true;
+      }
+    }
+    function uncheck(){
+       var listItem = document.getElementsByClassName('item');
+      for (var i = listItem.length - 1; i >= 0; i--) {
+        listItem[i].checked= false;
+      }
+    }
+  </script>
+</body>
+</html>
