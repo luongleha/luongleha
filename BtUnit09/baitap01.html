@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bai tap 01</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<style type="text/css">
 	*{
 		margin:0;
@@ -22,6 +23,7 @@
 		min-height: 100%;
 	}
 	#before{
+		height: 30px;
 		position: absolute;
 		background: gray;
 		cursor: pointer;
@@ -33,6 +35,7 @@
 		display: none;
 	}
 	#after {
+		height: 30px;
 		position: absolute;
 		background: gray;
 		cursor: pointer;
@@ -54,7 +57,7 @@
 	.button{
 		margin: 3px;
 		width: 50px;
-		height: 30px;
+		height: 10px;
 		cursor: pointer;
 		background-color: red;
 	}
@@ -147,8 +150,8 @@
 			<button class="button" onclick="elementSlide(3)"></button>
 		</div>
 
-		<img src="http://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Forward-icon.png" class="before">
-		<img src="http://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Forward-icon.png" class="after">
+		<button id="before"><i class="fas fa-angle-double-left"></i></button>
+		<button id="after"><i class="fas fa-angle-double-right"></i></button>
 	</center>
 </body>
 </html>

@@ -2,7 +2,7 @@ body {
 	background-image: url(http://thuthuatphanmem.vn/uploads/2018/09/11/hinh-anh-dep-3_044126905.jpg);
 }
 td {
-	
+	color: red;
 	padding: 10px;
 }
 #form {
@@ -15,9 +15,12 @@ table {
     border: 1px solid;
     border-radius: 20px;
     padding: 20px;
-    background-color: wheat;
+    border-color: mediumspringgreen;
 }
 .err {
 	display: none;
 	color: red;
+}
+.dkxt{
+	margin-top: 5px;
 }
