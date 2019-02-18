@@ -1,0 +1,212 @@
+#main1{
+	background-image: url(img/e.jpg);
+	height: 100%
+}
+.navbar{
+	opacity: 0.7;
+	padding-left:10%;
+	padding-right: 10%;
+	
+}
+.navbar-light .navbar-brand {
+	color: rgba(255, 255, 255, 0.9);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: rgba(255, 255, 255, 0.9);
+}
+.main1{
+	text-align: center;
+	width: 65%;
+	margin: auto;
+	padding: 7%;
+}
+.main1 h1{
+	font-size: 60px;
+	color: white;
+}
+.main1 hr{
+	background-color: #ff6928;
+	height: 2px;
+	width: 5%;
+}
+.main1 p{
+	opacity: 0.7;
+	color: white;
+}
+
+
+#main2{
+	background-color: #ff5435;
+	height: 100%;
+}
+.main2{
+	text-align: center;
+	width: 61%;
+	margin: auto;
+	padding: 7%;
+}
+.main2 h3{
+	color: white;
+}
+.main2 hr{
+	background-color: white;
+	height: 2px;
+	width: 5%;
+}
+.main2 p{
+	opacity: 0.7;
+	color: white;
+}
+
+
+.main3{
+	text-align: center;
+	width: 61%;
+	margin: auto;
+	padding: 7%;
+}
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.divider{
+	background-color: #ff6928;
+	height: 2px;
+	width: 5%;
+}
+
+
+#main4{
+
+}
+.box{
+	height: 250px;
+}
+.col{
+	width: 26%;
+}
+.picture1{
+	background-image: url(img/a.jpg);
+	background-size: cover;
+}
+.picture2{
+	background-image: url(img/b.jpg);
+	background-size: cover;
+}
+.picture3{
+	background-image: url(img/c.jpg);
+	background-size: cover;
+}
+.picture4{
+	background-image: url(img/d.jpg);
+	background-size: cover;
+}
+.picture5{
+	background-image: url(img/f.jpg);
+	background-size: cover;
+}
+.picture6{
+	background-image: url(img/h.jpg);
+	background-size: cover;
+}
+
+
+#main5{
+	background-color: #404040;
+	height: 100%;
+}
+.main5{
+	text-align: center;
+	color: white;
+	margin: auto;
+	padding: 7%;
+}
+
+
+.main6{
+	text-align: center;
+	width: 61%;
+	margin: auto;
+	padding: 7%;
+}
+.main6 h3{
+	color: black;
+}
+.main6 hr{
+	background-color: #ff6928;
+	height: 2px;
+	width: 5%;
+}
+.main6 p{
+	opacity: 0.7;
+	color: black;
+}
+
+.btn{
+	background-color: #ff6928;
+	border-radius: 30px;
+	border: 0;
+}
+.btn2{
+	background-color: white;
+	border-radius: 30px;
+	border: 0;
+	height: 30px;
+}
+
+@media(max-width: 700px){
+	.navbar{
+		background-color: white;
+	}
+	.navbar-light .navbar-brand {
+		color: rgb(255, 61, 0);
+	}
+	.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+		color: rgba(255, 0, 0, 0.9);
+	}
+	.main1 h1{
+		font-size: 40px;
+	}
+	.main1 hr{
+		width: 20%;
+	}
+	.main2 hr{
+		width: 20%;
+	}
+	.main3 hr{
+		width: 20%;
+	}
+	.main6 hr{
+		width: 20%;
+	}
+}
+
+@media(max-width: 480px){
+	.navbar{
+		background-color: white;
+	}
+	.navbar-light .navbar-brand {
+		color: rgb(255, 61, 0);
+	}
+	.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+		color: rgba(255, 0, 0, 0.9);
+	}
+	.main1 h1{
+		font-size: 30px;
+	}
+	.main1 hr{
+		width: 20%;
+	}
+	.main2 hr{
+		width: 20%;
+	}
+	.main3 hr{
+		width: 20%;
+	}
+	.main6 hr{
+		width: 20%;
+	}
+}
