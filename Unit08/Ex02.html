@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" class="name">
+	<button onclick="FE23()">Click</button>
+	<script>
+		function FE23(){
+			var input = document.getElementsByClassName("name")[0]
+			input=input.value;
+			if (input=="") {
+				alert("Yeu cau nhap lai");
+			} else alert("Gui thong tin");
+		}
+	</script>
+</body>
+</html>

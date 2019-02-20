@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<select onchange="myCity(this)">
+		<option value="1">Ha Noi</option>
+		<option value="2">HCM</option>
+	</select>
+
+	<select id="district">
+		<option value="1">Tay Son</option>
+		<option value="2">Thai Ha</option>
+	</select>
+	<script type="text/javascript">
+		function mtCity(x){
+			if(x.value == 2){
+				document.getElementById('district').innerHTML = `
+				<option value="1">Dong da</option>
+				<option value="1">Thanh Xuan</option>
+				`;
+			}
+			else(x.value == 1) {
+				document.getElementById('district').innerHTML = `
+				<option value="1">Quan 7</option>
+				<option value="1">Quan 6</option>
+				`;
+			}
+		}
+	</script>
+</body>
+</html>

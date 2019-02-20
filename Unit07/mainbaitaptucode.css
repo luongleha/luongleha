@@ -1,0 +1,47 @@
+#cv{
+	background-color: #e7fef8;
+	width: 100%;
+	text-align: center;
+	/*float: left;*/
+}
+
+.main{
+	display: inline-block;
+	width: 23%;
+	padding: 10px;
+	position: relative;
+	z-index: 2;
+}
+.main>img{
+	max-width:100%;
+	
+}
+.main:hover img{
+	opacity: 0.5;
+}
+.mainhover{
+	display: none;
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+}
+.main:hover .mainhover{
+	display: block;
+}
+@media (max-width: 960px){
+	.main{
+		width: 10%;
+		display: inline-block;
+	}
+}
+@media (max-width: 700px){
+	#web{
+		width: 45%;
+		display: inline-block;
+	}
+}
+@media (max-width: 480px){
+	#web{
+		width: 90%;
+	}
+}
